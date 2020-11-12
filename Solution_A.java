@@ -2,6 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 class Solution_A {
+	
 	public int[] solution(int[] numbers) {
 		Set<Integer> set = new HashSet<>();
 		
@@ -13,6 +14,7 @@ class Solution_A {
 		
 		return set.stream().sorted().mapToInt(Integer::intValue).toArray();
 	}
+	
 	
 	
 	public static void main(String[] args) {

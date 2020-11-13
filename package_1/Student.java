@@ -1,10 +1,10 @@
 package package_1;
 
 public class Student {
+
 	private String name, no;
 	
 	public Student(String name, String no) {
-		super();
 		this.name = name;
 		this.no = no;
 	}
@@ -15,12 +15,11 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 	public String getNo() {
 		return no;
 	}
 	public void setNo(String no) {
 		this.no = no;
 	}
+	
 }
-

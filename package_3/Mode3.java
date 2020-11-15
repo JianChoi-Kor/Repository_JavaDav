@@ -33,6 +33,8 @@ public class Mode3 {
 				modeCnt = mode[i];
 				modeNum = i;
 			}
+			
+			
 		}
 		System.out.println("\n"+"\n"+"최빈수는 : "+modeNum+" 출현 횟수는 : "+modeCnt);
 	}

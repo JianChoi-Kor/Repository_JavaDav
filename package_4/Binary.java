@@ -1,21 +1,10 @@
 package package_4;
 
 public class Binary {
-
 	public static void main(String[] args) {
 		
-		int inputNum = 19;
+		int inputNum = 25;
 		int bin [] = new int [100];
-		
-		/* 
-		 * 19 / 2     9 ... 1
-		 * 9  / 2     4 ... 1
-		 * 4  / 2     2 ... 0
-		 * 2  / 2     1 ... 0
-		 * 1  / 2     0 ... 1 
-		 * 
-		 * 010011 => 19
-		 */
 		
 		int i = 0;
 		int mok = inputNum;
@@ -31,3 +20,4 @@ public class Binary {
 		}
 	}
 }
+

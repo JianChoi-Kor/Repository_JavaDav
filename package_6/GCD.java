@@ -5,7 +5,7 @@ public class GCD {
 	public static void main(String[] args) {
 		
 		int inputNum1, inputNum2;
-		inputNum1 = 18;
+		inputNum1 = 19;
 		inputNum2 = 27;
 		
 		int big;

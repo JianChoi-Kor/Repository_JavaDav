@@ -1,6 +1,7 @@
 package package_13;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class _HashSet {
@@ -12,7 +13,15 @@ public class _HashSet {
 		Set set = new HashSet();
 		
 		for(int i=0; i<objArr.length; i++) {
-			System.out.println(objArr[i]+"="+set.add(objArr[i]));
+			set.add(objArr[i]);
+		}
+		System.out.println(set);
+		
+		
+		Iterator it = set.iterator();
+		
+		while(it.hasNext()) {
+			System.out.println(it.next());
 		}
 	}
 }

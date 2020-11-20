@@ -19,8 +19,6 @@ public class SolutionHashMap {
 			}
 		}
 		return answer;
-		
-		
 	}	
 		
 	public static void main(String[] args) {

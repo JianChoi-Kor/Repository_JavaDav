@@ -7,7 +7,7 @@ public class Rec1 {
 		int num = 6;
 		
 		for(int i=1; i<=num*num; i++) {
-			System.out.print(i+" ");
+			System.out.printf("%4d",i);
 			if(i%num == 0) {
 				System.out.println();
 			}

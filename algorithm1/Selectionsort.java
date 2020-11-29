@@ -6,7 +6,7 @@ public class Selectionsort {
 
 	public static void main(String[] args) {
 
-		int[] intArr = {9, 6, 7, 3, 5};
+
 		
 //		int n = 0;
 //		
@@ -29,8 +29,10 @@ public class Selectionsort {
 //		}
 		
 		
+		
+		int[] intArr = {9, 6, 7, 3, 5};
+		
 		for(int n=0; n<intArr.length-1; n++) {
-
 			for(int i=n; i<intArr.length; i++) {
 				
 				int min = intArr[n];
@@ -46,10 +48,8 @@ public class Selectionsort {
 
 			System.out.println(Arrays.toString(intArr));
 		}
-
-
-		
-		
 	}
-
 }
+
+
+

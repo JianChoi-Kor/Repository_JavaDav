@@ -31,12 +31,14 @@ public class Selectionsort_basic {
 	
 	public static void main(String[] args) {
 		
-		int[] intArr = {5, 3, 8, 11, 4, 7};
+		int[] intArr = {9, 6, 7, 3, 5};
 		
 		System.out.println("최솟값 : "+minValue(intArr));
 		System.out.println("최댓값 : "+maxValue(intArr));
 	}
 }
+
+
 
 
 

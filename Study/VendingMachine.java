@@ -76,14 +76,16 @@ public class VendingMachine {
 			if(selectNum == 0) {
 				break;
 			}
-			else if(myMoney < canArr[selectNum-1].getPrice()) {
-				System.out.println("금액이 모자랍니다.");
-				break;
-			}
 			
 			else if(selectNum > canArr.length+1 || selectNum < 0) {
 				System.out.println("잘못 입력하셨습니다."); 
 			}
+			
+			else if(myMoney < canArr[selectNum-1].getPrice()) {
+				System.out.println("금액이 모자랍니다.");
+				break;
+			}
+		
 			else {
 				System.out.printf("%s를 선택하셨습니다.\n", canArr[selectNum-1].getName());
 				sum += canArr[selectNum-1].getPrice();
